@@ -143,10 +143,10 @@
 
       <!--Right column-->
     <div class="col-sm-4 home-right" >
-        <aside>
             <a href="new.htm"> <img src="images/new-here.png" /></a> 
             <a href="events.htm"><img src="images/events.png" /></a>
-        </aside>
+            <a href="http://www.paypal.com" target="_blank"><img style="width: 45%; margin-top: 8px;" src="images/btn_donateCC_LG.gif" /></a>
+
     </div>
   </div>
 
@@ -157,9 +157,16 @@
                 <a href="questions.htm"><img src="images/questionsNew.png" /></a>
                 <a href="messages.htm"><img src="images/messagesNew.png" /></a>
            </section>
+            <div style="display: block; margin-top: 15px; float: left;" >
+                <div class="fb-like" data-href="http://winonachurch.com" data-layout="button" data-action="like" data-show-faces="true" data-share="true"></div>
+                <a href="https://twitter.com/share" class="twitter-share-button" data-via="mpschmelzer" data-size="large" data-count="none" style="margin-left: 25px;">Tweet</a> <script>!function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = p + '://platform.twitter.com/widgets.js'; fjs.parentNode.insertBefore(js, fjs); } }(document, 'script', 'twitter-wjs');</script>            
+                <script src="//platform.linkedin.com/in.js" type="text/javascript"> lang: en_US</script>
+                <script type="IN/Share"></script>
+            </div>
         </div>
         <div class="col-sm-4 donate">
-            <a href="http://www.paypal.com" target="_blank"><img src="images/paypal_donate_button.png" /></a>
+            <!--<a href="http://www.paypal.com" target="_blank"><img src="images/paypal_donate_button.png" /></a>-->
+            <div style="margin-top: 10px;" id="fb-root"></div><script>(function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3"; fjs.parentNode.insertBefore(js, fjs); }(document, 'script', 'facebook-jssdk'));</script><div class="fb-video" data-allowfullscreen="true" data-href="https://www.facebook.com/naycrumors/videos/869138273158372/"><div class="fb-xfbml-parse-ignore"><blockquote cite="/naycrumors/videos/869138273158372/"><a href="/naycrumors/videos/869138273158372/">Lee Stoneking Addresses UN General Assembly </a><p>In case you missed it: This morning Rev. Lee Stoneking was the first apostolic in history to address the United Nations General Assembly in NYC. He shared his testimony and told the whole world to obey Acts 2:38! Watch and share this video. Everyone should hear this powerful testimony!</p>Posted by <a href="https://www.facebook.com/naycrumors">NAYC Rumors</a> on Wednesday, April 22, 2015</blockquote></div></div>
         </div>
     </div>
 </div>
@@ -179,5 +186,15 @@
     <script src="../../assets/js/vendor/holder.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    <!--script for facebook plugin-->
+    <div id="fb-root"></div>
+    <script>(function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3";
+        fjs.parentNode.insertBefore(js, fjs);
+        } (document, 'script', 'facebook-jssdk'));
+  </script>
   </body>
 </html>
