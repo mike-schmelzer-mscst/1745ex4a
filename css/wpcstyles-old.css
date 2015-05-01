@@ -86,38 +86,6 @@ h1 {
 	-moz-border-top-right-radius: 1.5em;
     border-top-right-radius: 1.5em;
 
-  	-webkit-border-bottom-left-radius: 1.5em;
-	-moz-border-bottom-left-radius: 1.5em;
-    border-bottom-left-radius: 1.5em;
-  	-webkit-border-bottom-right-radius: 1.5em;
-	-moz-border-bottom-right-radius: 1.5em;
-    border-bottom-right-radius: 1.5em;
-}
-/*.page-top-round {
-    background-color: #F0D79E; 
-    padding-top: 15px; 
-    border: 5px solid #50341F;
-  	-webkit-border-top-left-radius: 1.5em;
-	-moz-border-top-left-radius: 1.5em;
-    border-top-left-radius: 1.5em;
-  	-webkit-border-top-right-radius: 1.5em;
-	-moz-border-top-right-radius: 1.5em;
-    border-top-right-radius: 1.5em;
-
-}*/
-.inner-page-round {
-    border: 5px solid #51351F; 
-    width: 100%; 
-    margin-bottom: 15px; 
-    -webkit-border-top-right-radius: 1.5em; 
-    -moz-border-top-right-radius: 1.5em; 
-    border-top-right-radius: 1.5em; 
-    -webkit-border-bottom-right-radius: 1.5em; 
-    -moz-border-bottom-right-radius: 1.5em; 
-    border-bottom-right-radius: 1.5em; 
-    -webkit-border-bottom-left-radius: 1.5em;
-    -moz-border-bottom-left-radius: 1.5em;
-    border-bottom-left-radius: 1.5em;
 }
 h3 {
     color: #663300;
@@ -352,7 +320,7 @@ footer {
 }
 /* ---------------- Nav Tabs --------------------- */
 .nav-tabs {
-  /*border-bottom: 1px solid #51351F;*/
+  border-bottom: 1px solid #51351F;
 }
 .nav-tabs > li {
   float: left;
